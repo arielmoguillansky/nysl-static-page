@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>Welcome to NYSL </title>
+				<link rel="shortcut icon" href="images/favicon.png">
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css" href="styles/nysl_3.css">
+		
+	</head>
+	
+	<body>
+		<header>
+			<div id="page_title">
+				<h2>Registration Form</h2></div>
+			<div id="site_title"><h1>Northside Youth Soccer League</h1></div>
+			<div id="header"></div>
+			
+			<div id="nysl_logo"><img alt="nysl logo" src="images/nysl_logo.png" ></div>	
+			
+		</header>		
+		<nav id="nav_container">
+			<ul class="nav_list">		
+					
+					<li class="nav_button"><a href="index.html">Home</a></li>
+					
+					<li class="nav_button"><a href="about.html">About</a></li>
+					<li class="nav_button"><a href="game_info.html"> Game Info</a></li>
+					<li class="nav_button"><a href="rules.html"> NYSL Rules</a></li>
+					<li class="nav_button" ><a class="active" href="registration.html">Members</a></li>
+					<li class="nav_button"><a href="contact.html">Contact</a></li>
+			</ul>
+		
+		</nav>
+		<main>
+			
+				
+					
+			<div class="text">			
+				<h4>Pelase, complete the following form</h4>
+				
+					<form action="show_data.html" method="get">
+						<fieldset class="personal_info">
+							Player's First Name: <input type="text" name="first_name">
+							Last Name: <input type="text" name="last_name"><br>
+							Street Address: <input type="text" name="street_address"><br>
+							City: <input type="text" name="city">
+							Zip Code: <input type="text" name="zip_code"><br>
+							Birth Date (mm/dd/yyyy): <input type="number" name="birth_date">
+							Gender: <input type="radio" name="gender" value="female">Female
+							<input type="radio" name="gender" value="male">Male<br>
+							Grade: <input type="radio" name="grade" value="Pre School">Pre-School
+							 <input type="radio" name="grade" value="first">1<sup>st</sup>
+							 <input type="radio" name="grade" value="second">2<sup>nd</sup>
+							 <input type="radio" name="grade" value="third">3<sup>rd</sup>
+							 <input type="radio" name="grade" value="fourth">4<sup>th</sup>
+							 <input type="radio" name="grade" value="fifth">5<sup>th</sup>
+							 Parent/Guardian: <input type="text" name="Parent"><br>
+							 Contact Phone: <input type="number" name="contact_phone">
+							 Contact Email: <input type="email" name="contact_email"><br>
+						</fieldset>
+						<fieldset class="school_info">
+							<p><span class="bold_title">Which elementary schools do you live near?</span></p>
+							
+
+
+							<table class="form_table">
+								<tr>
+									<th class="bold_title">First Closest School:</th>
+									<th class="bold_title">Second Closest School:</th>
+								</tr>
+								<tr>
+									<td>
+										<select name="first school">
+										   <option disabled selected>Select school</option>
+										  <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+										  <option value="Marjorie P Hart">Marjorie P Hart</option>
+										  <option value="Greenbay">Greenbay</option>
+										  <option value="Howard A Yeager">Howard A Yeager</option>
+										  <option value="North Elementary">North Elementary</option>
+										  <option value="South Elementary">South Elementary</option>
+										</select>
+									</td>
+									<td>
+									<select name="second school">
+									  <option disabled selected>Select school</option>
+									  <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+									  <option value="Marjorie P Hart">Marjorie P Hart</option>
+									  <option value="Greenbay">Greenbay</option>
+									  <option value="Howard A Yeager">Howard A Yeager</option>
+									  <option value="North Elementary">North Elementary</option>
+									  <option value="South Elementary">South Elementary</option>
+									</select>
+									</td>
+								</tr>
+							</table>
+						</fieldset>
+						<fieldset class="position_info">	
+							<p><span class="bold_title">What position(s) do you normally play?</span>(check all that apply)</p>
+							<table class="form_table">
+								<tr>
+									<td><input type="checkbox" name="Position_normal" value="Forward">Forward</td>
+									<td><input type="checkbox" name="Position_normal" value="Mildfield">Mildfield</td>
+								</tr>
+								<tr>
+									<td><input type="checkbox" name="Position_normal" value="Defense">Defense</td>
+									<td><input type="checkbox" name="Position_normal" value="Goalkeeper">Goalkeeper</td>
+								</tr>
+							</table>
+							<p id="position_sub"><span class="bold_title">What position(s) do you want to play?</span>(check all that apply)</p>
+							<table class="form_table">
+								<tr>
+									<td><input type="checkbox" name="Position_change" value="Forward">Forward</td>
+									<td><input type="checkbox" name="Position_change" value="Mildfield">Mildfield</td>
+								</tr>
+								<tr>
+									<td><input type="checkbox" name="Position_play" value="Defense">Defense</td>
+									<td><input type="checkbox" name="Position_change" value="Goalkeeper">Goalkeeper</td>
+								</tr>
+							</table>
+						</fieldset>
+						<fieldset class="uniform_info">
+							<input type="checkbox" name="Uniform"><span class="bold_title">Already Have a Uniform</span>
+							<table class="form_table">
+								<tr>
+									<th colspan="2" class="bold_title">Jersey Size:</th>
+									<th colspan="2" class="bold_title">Shorts Size:</th>
+								</tr>
+								<tr>
+									<td><input type="radio" name="Jersey" value="Youth Small">Youth Small</td>
+									<td><input type="radio" name="Jersey" value="Medium">Medium</td>
+									<td><input type="radio" name="Short" value="Youth Small">Youth Small</td>
+									<td><input type="radio" name="Short" value="Medium">Medium</td>
+								</tr>
+								<tr>
+									<td><input type="radio" name="Jersey" value="Youth Medium">Youth Medium</td>
+									<td><input type="radio" name="Jersey" value="Large">Large</td>
+									<td><input type="radio"  name="Short" value="Youth Medium">Youth Medium</td>
+									<td><input type="radio" name="Jersey" value="Large">Large</td>
+								</tr>
+								<tr>
+									<td><input type="radio"  name="Jersey" value="Youth Large">Youth Large</td>
+									<td><input type="radio"  name="Jersey" value="Extra Large">Extra Large</td>
+									<td><input type="radio"  name="Short" value="Youth Large">Youth Large</td>
+									<td><input type="radio"  name="Short" value="Extra Large">Extra Large</td>
+								</tr>
+								<tr>
+									<td colspan="2"><input type="radio"  name="Jersey" value="Small">Small</td>
+									<td colspan="2"><input type="radio"  name="Short" value="Small">Small</td>
+								</tr>
+							</table>
+						</fieldset>	
+						<fieldset class="permission_info">
+							<p><span class="bold_title" id="permission">Permission to Play</span><br>
+								I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in  accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL sponsored activities, which transportation. <br>
+								 By entering my name and date below, I hereby agree and authorize the above. In addition, by entering my name below, I also acknowledge that I have read the cancellation policy and agree to its terms. <br>
+								 Parent/Guardian name: <input type="text" name="Parent_signature" required>
+								 Date: <input type="number" name="date_signature" required>
+							</p>
+						</fieldset>
+					<input type="submit" name="submit_button" value="Submit">
+					</form>	
+								
+			
+					
+				
+			</div>
+				
+			
+									
+							
+
+		</main>
+	</body>
+</html>

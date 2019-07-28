@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600');
+/*css reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*codigo propio*/
+
+h1{
+	color: #043949 ;
+	
+	font-family: 'Montserrat', sans-serif;
+	font-size: 55px;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #A3FE1C;
+	-moz-text-stroke-width: 1px;
+	-moz-text-stroke-color: #A3FE1C;
+	-o-text-stroke-width: 1px;
+	-o-text-stroke-color: #A3FE1C;
+	-ms-text-stroke-width: 1px;
+	-ms-text-stroke-color: #A3FE1C;
+
+
+}
+h2{
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Josefin Sans';
+	margin-top: 10px;
+}
+h3{
+	color: black;
+	text-align: left;
+	font-size: 30px;
+	font-family: 'Josefin Sans';
+}
+p{
+	font-family: 'helvetica';
+	margin-top: 5px;
+	margin-bottom: 40px;
+	line-height: 1.4;
+}
+br{
+	line-height: 1.8;
+}
+
+#header{
+	background-image: url(../images/headimage.jpg);
+	width: auto;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0px;
+	position: relative;
+	z-index: -1;
+	top: 90px;
+
+
+
+}
+#site_title{
+	
+	position: absolute;
+	float: left;
+	padding-left: 20px;
+	top: 20px;
+	
+
+}
+#page_title{
+	width: 100%;
+	background-color: black;
+	height: 50px;
+	margin-top: 290px;
+	position: absolute;
+	z-index: 1;
+	
+
+}
+#nysl_logo{
+	
+	width: 150px;
+	top: 370px;
+	left: 20px;
+	position: absolute;
+	z-index: 1;
+
+
+}
+
+#nysl_logo img{
+	width: 100%;	
+	vertical-align: top;	
+}
+
+#nav_container{
+	position: absolute;
+	float: right;
+	width: auto;
+	right: 30px;
+    top: 60px;
+    
+}
+.navigation_list {
+  list-style-type: none;
+  position: relative;
+  
+
+  
+}
+
+li {
+  font-family: 'Josefin Sans';
+	font-size: 20px;
+ 	float: left;
+  
+
+}
+ #nav_container a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	background-color: #033949;
+	padding: 10px;
+	margin-right: 20px;
+	border: 3px solid black;
+	box-shadow: 5px 5px black;
+	
+	
+}
+#nav_container .active {
+	background-color: #a3ff15;
+}
+
+.text{
+	width: 700px;
+	position: absolute;
+	top: 380px;
+	left: 350px;
+	text-align: justify;
+	
+}
+.date{
+	font-family: 'Josefin Sans';
+	font-weight: bold;
+	font-size: 18px;
+
+}
+.event{
+	font-family: 'helvetica';
+	text-indent: 50px;
+	margin-bottom: 40px;
+	margin-top: 10px;	
+}
